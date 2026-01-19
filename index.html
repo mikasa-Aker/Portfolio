@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Arshiya | Portfoli</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">arshiya</a>
+
+            <nav class="nav">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="project.html">projects</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+            <div>
+                <p class="badge">Open to internship~Frontend~online~contract</p>
+                <h1 class="hero-title">
+                    Hi,i'am<span class="accent">Arshiya</span>
+                    <br/>
+                    i build clean,responsive websites.
+                </h1>
+                <p class="hero-subtitle">
+                    i'am learning frontend devlopment with Html,css,javascript and building on project on gitHub.
+                    I enjoy creating simple,profrssional UI layouts.
+                </p>
+
+                <div class="chips">
+                    <span class="chip">HTML</span>
+                    <span class="chip">CSS</span>
+                    <span class="chip">Responsive Design</span>
+                    <span class="chip">Git & Github</span>
+                    <span class="chip">Java</span>
+                    <span class="chip">Basic-Paython</span>
+                    <span class="chip">c#</span>   
+                </div>
+            </div>
+
+            <div class="card profile-card">
+                <div class="avatar" aria-hidden="true">A</div>
+                <h2 class="card-title">Frontend Devloper</h2>
+                <p class="muted">
+                    based in oshwa,ON.Building my protfolio for entry-level roles.
+                </p>
+                <div class="mini-grid">
+                    <div class="mini-box">
+                        <p class="mini-label">Focus</p>
+                        <p class="mini-value">UI + Layout</p>
+                    </div>
+                    <div class="mini-box">
+                        <p class="mini-label">Goal</p>
+                        <p class="mini-value">Job Ready</p>
+                    </div>
+                    <div class="mini-box">
+                        <p class="mini-label">Tools</p>
+                        <p class="mini-value">VS Code</p>
+                    </div>
+                    <div class="mini-box">
+                        <p class="mini-label">Workflow</p>
+                        <p class="mini-value">GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About</h2>
+                <p class="muted">A quick summary</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3 class="card-title">What I'am learning</h3>
+                    <ul class="list">
+                        <li>Semantic HTML (header, nav, section, footer)</li>
+                        <li>Modern CSS (Flexbox, Grid, responsive design)</li>
+                        <li>Clean project structure + GitHub workflow</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">What I can build</h3>
+                    <ul class="list">
+                        <li>Landing pages</li>
+                        <li>Portfolio sites</li>
+                        <li>Simple UI components (cards, forms, layouts)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacts</h2>
+                <p class="muted">Use a professional email (no phone number needed).</p>
+                </div>
+            <div class="card contact-card">
+                <div class="contact-row">
+                    <span class="contact-label">Email</span>
+                    <a class="contact-link" href="mailto:myway9484@gmail.com">myway9484@gmail.com</a>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-label">GitHub</span>
+                    <a class="contact-link" href="https://github.com/mikasa-Aker" target="_blank" rel="noreferrer">
+                    https://github.com/mikasa-Aker
+                    </a>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-label">LinkedIn</span>
+                    <a class="contact-link" href="https://www.linkedin.com/in/arshiya-ghanchi" target="_blank" rel="noreferrer">
+                        linkedin.com/in/arshiya-ghanchi
+                    </a>
+                </div>
+                <p class="tiny muted">
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Arshiya • Built with HTML & CSS</p>
+        <p class="muted">Public portfolio — no private info shared.</p>
+    </div>
+</footer>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
