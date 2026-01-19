@@ -1,0 +1,160 @@
+:root{
+    --bg: #0b0f17;
+    --card: rgba(255,255,255,0.06);
+    --border: rgba(255,255,255,0.12);
+    --text: rgba(255,255,255,0.92);
+    --muted: rgba(255,255,255,0.70);
+    --accent: #7c5cff;
+    --shadow: 0 16px 40px rgba(0,0,0,0.35);
+}
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+.container {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    padding: 0 16px;
+}
+    .site-header {
+    border-bottom: 1px solid var(--border);
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.nav-link {
+    margin-left: 16px;
+    color: var(--muted);
+    text-decoration: none;
+}
+.nav-link.active {
+    color: var(--accent);
+}
+.hero {
+    padding: 60px 0;
+}
+.hero-inner {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 24px;
+}
+.hero-title {
+    font-size: 2.5rem;
+}
+.accent {
+    color: var(--accent);
+}
+.hero-subtitle {
+    color: var(--muted);
+    max-width: 600px;
+}
+.badge {
+    display: inline-block;
+    background: rgba(124,92,255,0.15);
+    color: var(--accent);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+}
+.chips {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.chip {
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.85rem;
+}
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.muted {
+    color: var(--muted);
+}
+.mini-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+    .mini-box {
+    border: 1px solid var(--border);
+    padding: 10px;
+    border-radius: 12px;
+    }
+    .mini-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    }
+    .mini-value {
+    font-weight: 600;
+    }
+    .section {
+    padding: 60px 0;
+    }
+    .section-header {
+    margin-bottom: 24px;
+    }
+    .contact-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    }
+    .contact-link {
+    color: var(--accent);
+    text-decoration: none;
+    }
+    @media (max-width: 900px) {
+    .hero-inner {
+        grid-template-columns: 1fr;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
